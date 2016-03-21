@@ -44,7 +44,9 @@ svg {
   padding-bottom:7%;
 }
 
-.btn {
+
+.btn-primary {
+background-color: #372478;
 border: none;
 border-radius: 0;
 color: white;
@@ -52,19 +54,73 @@ padding-top: 7%;
 padding-bottom:7%;
 }
 
-.btn-primary {
-background-color: #bdd339;
-}
-
 .btn-default {
-background-color: #e56b28;
+background-color: #7b057e;
+border: none;
+border-radius: 0;
+color: white;
+padding-top: 7%;
+padding-bottom:7%;
 }
 
 .btn-danger{
-background-color:#86c2f2;
+background-color:#ba007c;
+border: none;
+border-radius: 0;
+color: white;
+padding-top: 7%;
+padding-bottom:7%;
 }
 
-.glyphicon {
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover {
+background-color:#bdd339;
+}
+
+a {
+  color:#ffffff;
+}
+
+a:hover,
+a:active
+{
+  text-decoration: none;
+  color:#ffffff;
+}
+.btn-default:hover,
+.btn-default:active,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active:focus,
+.btn-default:active:hover
+{
+  background-color:#e56b28;
+  color:#ffffff;
+}
+
+.btn-danger:hover,
+.btn-danger:active,
+.btn-danger:focus,
+.btn-danger.focus,
+.btn-danger:active:focus,
+.btn-danger:active:hover
+{
+  background-color:#86c2f2;
+}
+
+.glyphicon-default {
 font-size:18px;
 padding-left: 15px;
+}
+
+.btn-jeff {
+  padding:8px 12px;
+}
+
+.input-group-lg > .form-control, .input-group-lg > .input-group-addon, .input-group-lg > .input-group-btn > .btn{
+  border-radius: 0px;
 }
